@@ -1,0 +1,28 @@
+CREATE TABLE `post` (
+  `post_id` INT NOT NULL AUTO_INCREMENT,
+  `author` VARCHAR(255) NOT NULL,
+  `url` VARCHAR(1255) NOT NULL,
+  `tag` VARCHAR(1255) NOT NULL,
+  `parent_permlink` VARCHAR(1255) NULL,
+  `link` VARCHAR(1255) NULL,
+  `title` VARCHAR(1255) NULL,
+  `keywords` VARCHAR(1255) NULL,
+  `body` VARCHAR(1255) NULL,
+  `rating` INT NULL,
+  `comments` INT NULL,
+  PRIMARY KEY (`post_id`));
+INSERT INTO `post`(author, url, tag, title, body) VALUES
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1532601255894','golosanswers','Будут ли криптовалюты признанными в октябре 2018?','Будут ли криптовалюты признанными в октябре 2018?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1532597864735','golosanswers','Для чего в английском языке употребляется время Future In The Past?','Для чего в английском языке употребляется время Future In The Past?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1532516882419','golosanswers','Что такое ТуЗеМун в криптовалюте?','Что такое ТуЗеМун в криптовалюте?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1532098850570','golosanswers','Что нужно для хорошего отдыха?','Что нужно для хорошего отдыха?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1532009743832','golosanswers','Стоит ли покупать восстановленный айфон 6?','Стоит ли покупать восстановленный айфон 6?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1531930510922','golosanswers','Сколько времени в Голосе занимает подтверждение транзакции?','Сколько времени в Голосе занимает подтверждение транзакции?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1531927160739','golosanswers','Привет Голос!','Привет Голос!'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1531922825528','golosanswers','What is main difference between bitcoin and ethereum?','What is main difference between bitcoin and ethereum?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524749909643','golosanswers','Kто такой сатоши накамото?','Kто такой сатоши накамото?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524688579849','golosanswers','Что такое Мемпул Биткоина?','Что такое Мемпул Биткоина?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524474054879','golosanswers','Для чего нужен холодный кошелек?','Для чего нужен холодный кошелек?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524473535570','golosanswers','How get a public key and private key using Elliptic Curve Digital Signature Algorithm?','How get a public key and private key using Elliptic Curve Digital Signature Algorithm?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524405332517','golosanswers','Почему растет биткоин?','Почему растет биткоин?'),
+('alexeyd','/golosanswers/@alexeyd/re--golosanswers-1524400650450','golosanswers','Сколько будет эмитировано биткоинов?','Сколько будет эмитировано биткоинов?');

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GolosAnswers-BE.iml" filepath="$PROJECT_DIR$/.idea/GolosAnswers-BE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golosanswers-portal-common/golosanswers-portal-common.iml" filepath="$PROJECT_DIR$/golosanswers-portal-common/golosanswers-portal-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golosanswers-portal-domain/golosanswers-portal-domain.iml" filepath="$PROJECT_DIR$/golosanswers-portal-domain/golosanswers-portal-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golosanswers-portal-dto/golosanswers-portal-dto.iml" filepath="$PROJECT_DIR$/golosanswers-portal-dto/golosanswers-portal-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golosanswers-portal-rest/golosanswers-portal-rest.iml" filepath="$PROJECT_DIR$/golosanswers-portal-rest/golosanswers-portal-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golosanswers-portal-service/golosanswers-portal-service.iml" filepath="$PROJECT_DIR$/golosanswers-portal-service/golosanswers-portal-service.iml" />
+    </modules>
+  </component>
+</project>

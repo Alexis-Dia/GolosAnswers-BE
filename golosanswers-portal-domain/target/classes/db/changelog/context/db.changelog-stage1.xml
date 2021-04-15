@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+						http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="000_initial_migration.sql" author="adruzik">
+        <comment>Initial migration</comment>
+        <sqlFile path="/db/changelog/sql/stage1/000_initial_migration.sql"/>
+    </changeSet>
+
+    <changeSet id="001_add_product_table.sql" author="adruzik">
+        <comment>Add product table to the db schema</comment>
+        <sqlFile path="/db/changelog/sql/stage1/001_add_product_table.sql"/>
+    </changeSet>
+
+    <changeSet id="002_add_post_table.sql" author="adruzik">
+        <comment>Add post table to the db schema</comment>
+        <sqlFile path="/db/changelog/sql/stage1/002_add_post_table.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
