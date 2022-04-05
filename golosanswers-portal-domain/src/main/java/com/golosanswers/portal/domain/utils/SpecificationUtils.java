@@ -53,6 +53,7 @@ public final class SpecificationUtils {
 		return Optional.empty();
 	}
 
+	//Can be using with comparing of entities-types
 	public static <T> Optional<Predicate> equalPredicate(Path<T> path, T value, CriteriaBuilder criteriaBuilder) {
 
 		if (Objects.isNull(value) || ((value instanceof String) && StringUtils.nullOrEmpty((String) value))) {
